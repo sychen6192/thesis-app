@@ -1,7 +1,12 @@
 # Starting the development server
+```shell=
 yarn react-app:start
-Switch your Metamask to Rinkeby Network
+```
 
-# truffle directory 
-## test file
+# Test suite
+```shell=
 truffle test
+```
+
+# Public site
+https://kind-varahamihira-5a50f8.netlify.app/
