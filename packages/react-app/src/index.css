@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F2F5FA;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.fa-exchange-alt {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
+}
+.fa-exchange-alt:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.my-facebook-button-class {
+    width: 165px;
+    height:35px;  
+    border-radius: 4px;
+    background: #3b5998;
+    color:white;
+    border:0px transparent;  
+    text-align: center;
+    margin:5px;
+    display: inline-block;
+
+}
+
+.my-facebook-button-class:hover {
+        background: #3b5998;
+        opacity: 0.6;
+    }
